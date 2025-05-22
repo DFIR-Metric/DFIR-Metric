@@ -16,5 +16,5 @@ Authors: _Bilel Cherif, Aaesha Aldahmani, Saeed Alshehhi, Tamas Bisztray, Richar
 
 This dataset combines three modalities of testing. The methods are represented on this framework diagram.
 
-![DFIR-Metric Framework Diagram](/assets/DFIR-Metric-Framework.pdf)
+![DFIR-Metric Framework Diagram](./assets/DFIR-Metric-Framework.png)
 
