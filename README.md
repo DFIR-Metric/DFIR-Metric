@@ -6,6 +6,6 @@ DFIR-Metric is a comprehensive benchmark designed to evaluate Large Language Mod
 
 |Module|Dataset|Test Count|Details|
 |--|--|--|--|
-|`MCQ`|[DFIR-Module-MCQ.json](/DFIR-Module-MCQ.json)|713|Expert-reviewed 4-option quiz questions to test knowledge|
-|`CTF`|[DFIR-Module-CTF.json](/DFIR-Module-CTF.json)|150|Realistic forensic challenges requiring multi-step reasoning in a CTF style|
-|`NSS`|[DFIR-Module-NSS.json](/DFIR-Module-NSS.json)|150|Forensic disk analysis using NIST string search challenges|
+|`MCQ`|[DFIR-Metric-MCQ.json](/DFIR-Metric-MCQ.json)|713|Expert-reviewed 4-option quiz questions to test knowledge|
+|`CTF`|[DFIR-Metric-CTF.json](/DFIR-Metric-CTF.json)|150|Realistic forensic challenges requiring multi-step reasoning in a CTF style|
+|`NSS`|[DFIR-Metric-NSS.json](/DFIR-Metric-NSS.json)|510|Forensic disk analysis using NIST string search challenges|
