@@ -26,8 +26,8 @@ Bilel Cherif, Aaesha Aldahmani, Saeed Alshehhi, Tamas Bisztray, Richard A. Dubni
 
 This module contains 700 multiple-choice questions derived from industry-standard certifications and official documentation. Each question has been reviewed and validated by human experts to ensure high quality. You can download the dataset from: [DFIR-Metric-MCQ.json](/DFIR-Metric-MCQ.json)
 
-An example question from the dataset:
-```json
+An example question from the `DFIR-Metric-MCQ` dataset:
+```python
 {
   "question": "Which code does the FAT file system use to mark the file as deleted?",
   "options": {
@@ -44,9 +44,33 @@ Fourteen state-of-the-art LLMs have been evaluated using the DFIR-Metric MCQ dat
 ![DFIR-Metric Framework Diagram](./assets/MCQ_result.png)
 
 
-## Module II 
+## Module II - CTF Style Practical Challenges
 
-This moduele contains dynamic template for CTFF-style Forensic Challenges.  
+This module includes 50 dynamic templates for CTF-style forensic challenges. Each template contains variables that can be randomized, allowing for the generation of an unlimited number of unique challenges from the base templates. For our evaluation, we used k=3, resulting in 150 practical CTF-style challenges for testing LLMs. You can download the dataset of 150 challenges here: [DFIR-Metric-CTF.json](/DFIR-Metric-CTF.json)
+
+An example practical question from the `DFIR-Metric-CTF` dataset. Identify the suspicious IP address responsible for potentially malicious activity based on the following web server logs:
+
+```python
+
+10.12.19.134 - - [22/May/2025:13:00:07 +0000] "POST /api/v1/Li4vLi4vLi4vLi4vYmluL2Jhc2g= HTTP/1.1" 403 1434  
+192.168.181.243 - - [22/May/2025:05:08:31 +0000] "GET /about.html HTTP/1.1" 200 1434  
+192.168.209.58 - - [22/May/2025:11:14:49 +0000] "GET /index.html HTTP/1.1" 200 1434  
+192.168.58.17 - - [22/May/2025:16:14:29 +0000] "GET /index.html HTTP/1.1" 200 1434  
+192.168.133.223 - - [22/May/2025:03:24:11 +0000] "GET /contact.html HTTP/1.1" 200 1434  
+192.168.92.89 - - [21/May/2025:21:51:37 +0000] "GET /contact.html HTTP/1.1" 200 1434  
+192.168.58.169 - - [21/May/2025:20:49:46 +0000] "GET /index.html HTTP/1.1" 200 1434  
+192.168.218.239 - - [22/May/2025:08:48:20 +0000] "GET /contact.html HTTP/1.1" 200 1434
+192.168.205.104 - - [22/May/2025:17:10:03 +0000] "GET /download?file=....//....//etc/passwd HTTP/1.1" 403 1434  
+192.168.211.175 - - [22/May/2025:04:35:56 +0000] "POST /about.html HTTP/1.1" 200 1434  
+192.168.160.92 - - [21/May/2025:22:13:09 +0000] "GET /index.html HTTP/1.1" 200 1434  
+192.168.198.181 - - [22/May/2025:04:06:33 +0000] "POST /contact.html HTTP/1.1" 200 1434  
+
+answer: <xml>192.168.205.104</xml>
+```
+
+The example above represents a relatively simple task for LLMs. However, challenges such as reverse-engineering cryptographic keys or analyzing memory dumps significantly increase the complexity of the dataset compared to theoretical questions. As a result, the Confidence Index (CI) of the best-performing LLMs (without tool assistance) is substantially lower than their scores on multiple-choice questions. The results can be viewed here:
+
+![DFIR-Metric Framework Diagram](./assets/CTF_result.png)
 
 
 ## Module III 
