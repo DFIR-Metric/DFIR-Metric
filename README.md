@@ -78,7 +78,7 @@ To generate additional challenges from the dynamic templates, we have provided a
 
 In the Colab file, simply navigate to line 3178 and modify the following line: `generator.save_to_file(k=3)`. Change k=3 to any desired number. For example, setting k=10 will generate a new dataset containing 50 × 10 = 500 practical CTF-style challenges.
 
-## Module III 
+## Module III - NIST Forensic String Search
 
 
 
