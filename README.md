@@ -33,6 +33,9 @@ An example question from the dataset:
   "answer": "C"
 }
 ```
+Fourteen state-of-the-art LLMs have been evaluated using the DFIR-Metric MCQ dataset. The results of this evaluation are presented in the following table:
+
+![DFIR-Metric Framework Diagram](./assets/MCQ_result.png)
 
 
 
