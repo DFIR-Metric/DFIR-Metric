@@ -72,6 +72,9 @@ The example above represents a relatively simple task for LLMs. However, challen
 
 ![DFIR-Metric Framework Diagram](./assets/CTF_result.png)
 
+To generate additional challenges from the dynamic templates, we have provided a generator script in a Google Colab notebook, which can be downloaded here: ![DFIR_Metric_CTF_generator.ipynb](./assets/DFIR_Metric_CTF_generator.ipynb).
+
+In the Colab file, simply navigate to line 3178 and modify the following line:
 
 ## Module III 
 
