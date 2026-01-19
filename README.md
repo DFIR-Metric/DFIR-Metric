@@ -5,6 +5,19 @@
 
 **DFIR-Metric** is a comprehensive benchmark developed to assess the performance of Large Language Models (LLMs) in the field of Digital Forensics and Incident Response (DFIR), aiming to fill the gap in standardized evaluation methods. The benchmark comprises three key components: (a) MODULE I: expert-validated knowledge-based questions , (b)  MODULE II: realistic forensic challenges that require multi-step reasoning, (c) MODULE III: practical string search tasks derived from the NIST Computer Forensics Tool Testing Program (CFTT). We evaluated state-of-the-art LLMs using the DFIR-Metric benchmark and introduced a new metric—*Task Understanding Score (TUS)*—to more effectively assess performance in complex scenarios where overall accuracy is low.
 
+__Please use the following Bibtex for reference for citations:__
+
+```bibtex
+@inproceedings{cherif2025dfir,
+  title={Dfir-metric: A benchmark dataset for evaluating large language models in digital forensics and incident response},
+  author={Cherif, Bilel and Bisztray, Tamas and Dubniczky, Richard A and Aldahmani, Aaesha and Alshehhi, Saeed and Tihanyi, Norbert},
+  booktitle={International Conference on Neural Information Processing},
+  pages={17--31},
+  year={2025},
+  organization={Springer}
+}
+```
+
 ## Framework
 
 ![DFIR-Metric Framework Diagram](./assets/DFIR-Metric-Framework.png)
