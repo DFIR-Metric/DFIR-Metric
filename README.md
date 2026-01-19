@@ -18,6 +18,8 @@ __Please use the following Bibtex for reference for citations:__
 }
 ```
 
+This work was presented as a __spotlight paper__ at the 32nd __International Conference on Neural Information Processing__ (ICONIP) in November 2025 in Okinawa, Japan.
+
 ## Framework
 
 ![DFIR-Metric Framework Diagram](./assets/DFIR-Metric-Framework.png)
